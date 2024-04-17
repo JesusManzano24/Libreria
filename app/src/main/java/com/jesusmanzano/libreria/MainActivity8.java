@@ -45,8 +45,6 @@ public class MainActivity8 extends AppCompatActivity {
                 startActivity(intentFiguras);
             }
         });
-
-        // Configurar el OnClickListener para mangas
         koneko.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
