@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@drawable/descargar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <ImageButton
+                    android:id="@+id/atras"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40sp"
+                    android:background="@drawable/atras" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text=" Nino Nakano "
+                    android:textColor="#FF0000"
+                    android:textSize="40dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_weight="10"
+                android:layout_width="250dp"
+                android:layout_height="265dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/nino" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sobre el Personaje"
+                android:textColor="#FF33FF"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="“Kurumi Tokisaki, conocida como “Nightmare”, es un personaje del anime y manga “Date A Live”. Es el tercer espíritu que aparece en la serie y es famosa por sus acciones brutales, lo que le ha valido el título de “Peor Espíritu”. Kurumi tiene una apariencia distintiva con cabello negro y ojos heterocromáticos, uno rojo y otro amarillo con un reloj visible. A pesar de su fachada de estudiante de preparatoria, esconde una personalidad sádica y manipuladora, pero también muestra momentos de dulzura y vulnerabilidad"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textSize="40px" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Descripcion"
+                android:textColor="#FF33FF"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Año de Publicacion: 2017"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Dimensiones:1/8 de alto = 280 mm"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Distribuidor:  Brócoli"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Precio: $2,572"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"/>
+
+            <Button
+                android:id="@+id/agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar"></Button>
+            <Button
+                android:id="@+id/Quitar"
+                android:layout_marginTop="-50dp"
+                android:layout_marginStart="-120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quitar"></Button>
+            <Button
+                android:id="@+id/pagar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="-50dp"
+                android:text="Pagar"></Button>
+
+            <TextView
+                android:id="@+id/cantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-70dp"
+                android:layout_marginTop="-70dp"
+                android:background="@color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
