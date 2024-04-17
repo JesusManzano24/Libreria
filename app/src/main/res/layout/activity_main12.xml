@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity12">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@drawable/descargar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <ImageButton
+                    android:id="@+id/atras2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40sp"
+                    android:background="@drawable/atras" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="50dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text=" MANGAS "
+                    android:textColor="#FF0000"
+                    android:textSize="40dp" />
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/spy"
+                android:layout_width="204dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/spyxfamily" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Spy X Family"
+                android:textColor="#FF33FF"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+
+
+            <ImageButton
+                android:id="@+id/Figuras"
+                android:layout_width="207dp"
+                android:layout_height="248dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/wenever" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="We Never Learn"
+                android:textColor="#FF33FF"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/kaguya1"
+                android:layout_width="195dp"
+                android:layout_height="213dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/kaguya" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Love Is War"
+                android:textColor="#FF33FF"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="Jesus_2024"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
