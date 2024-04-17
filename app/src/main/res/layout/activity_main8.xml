@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@drawable/descargar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="100dp"
+                android:text="FIGURAS 1/8 "
+                android:textColor="#FF0000"
+                android:textSize="40dp" />
+            <ImageButton
+                android:id="@+id/atras"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="-310dp"
+                android:layout_marginTop="0sp"
+                android:background="@drawable/atras" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/Yami"
+                android:layout_width="182dp"
+                android:layout_height="208dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/yami" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Konojiki No Yami"
+                android:textColor="#FF9900"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+
+
+            <ImageButton
+                android:id="@+id/Kurumi"
+                android:layout_width="180dp"
+                android:layout_height="204dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/kuru2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Kurumi Tokisaki"
+                android:textColor="#FF0000"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/Koneko"
+                android:layout_width="174dp"
+                android:layout_height="183dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/nino" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nino Nakano"
+                android:textColor="#FF33FF"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="Jesus_2024"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

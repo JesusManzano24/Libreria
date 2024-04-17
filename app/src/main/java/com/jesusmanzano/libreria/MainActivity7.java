@@ -1,6 +1,4 @@
-package com.jesusmanzano.panaderia;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.jesusmanzano.libreria;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -9,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity7 extends AppCompatActivity {
     ImageButton Atras;
@@ -55,7 +55,6 @@ public class MainActivity7 extends AppCompatActivity {
                 actualizarTotal();
             }
         });
-
         quitar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
