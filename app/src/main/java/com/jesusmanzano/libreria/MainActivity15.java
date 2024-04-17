@@ -1,6 +1,4 @@
-package com.jesusmanzano.panaderia;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.jesusmanzano.libreria;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -9,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity15 extends AppCompatActivity {
     ImageButton Atras;
@@ -42,7 +42,7 @@ public class MainActivity15 extends AppCompatActivity {
         pagar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentPagar = new Intent(MainActivity15.this, MainActivity4.class);//falta el mainde pago
+                Intent intentPagar = new Intent(MainActivity15.this, MainActivity16.class);
                 startActivity(intentPagar);
             }
         });
