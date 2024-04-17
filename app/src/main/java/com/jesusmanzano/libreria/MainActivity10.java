@@ -42,7 +42,7 @@ public class MainActivity10 extends AppCompatActivity {
         pagar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentPagar = new Intent(MainActivity10.this, MainActivity16.class);//falta el mainde pago
+                Intent intentPagar = new Intent(MainActivity10.this, MainActivity4.class);//falta el mainde pago
                 startActivity(intentPagar);
             }
         });
