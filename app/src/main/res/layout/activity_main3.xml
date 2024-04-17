@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:background="@drawable/descargar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-100dp"
+                    android:text="CATEGORIAS"
+                    android:textColor="#FF0000"
+                    android:textSize="40dp" />
+
+                <ImageButton
+                    android:id="@+id/Boxset"
+                    android:layout_width="204dp"
+                    android:layout_height="144dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/boxset" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="BOXSET"
+                    android:textColor="#FF33FF"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20dp" />
+
+
+                <ImageButton
+                    android:id="@+id/Figuras"
+                    android:layout_width="178dp"
+                    android:layout_height="175dp"
+                    android:layout_marginTop="20sp"
+                    android:background="@drawable/kuru2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="FIGURAS"
+                    android:textColor="#FF33FF"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/Mangas"
+                    android:layout_width="185dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="20sp"
+                    android:background="@drawable/manga1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="MANGAS"
+                    android:textColor="#FF33FF"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Jesus_2024"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="100dp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
